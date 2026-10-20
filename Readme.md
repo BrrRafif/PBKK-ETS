@@ -1,9 +1,8 @@
 # Laporan Personal ETS: Aplikasi KasKita
 
 - **Mata Kuliah:** Pemrograman Berbasis Kerangka Kerja (PBKK)
-- **Nama:** Agil Lukman Hakim Muchdi
-- **NRP/Angkatan:** 5025241037/2024
-- **Program Studi:** Teknik Informatika, Institut Teknologi Sepuluh Nopember
+- **Nama:** Berwyn Rafif Alvaro
+- **NRP:** 5025241029
 - **Nama Proyek:** KasKita
 - **Repository GitHub Kelompok:** [https://github.com/Miko-a/KasKita.git](https://github.com/Miko-a/KasKita.git)
 
