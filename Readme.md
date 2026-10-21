@@ -16,14 +16,7 @@ Fitur utama KasKita mencakup pencatatan transaksi masuk dan keluar, pengelolaan 
 
 Alur umum aplikasi: `View (WPF/XAML) → ViewModel → Model → AppDbContext (EF Core) → SQLite`.
 
-## 2. Kontribusi Personal
-
-- **Tanggung jawab dalam kelompok:** 
-- **Implementasi yang saya kerjakan:** 
-- **Kendala dan penyelesaian:** 
-- **Kolaborasi:**
-
-## 3. Tampilan Aplikasi
+## 2. Tampilan Aplikasi
 
 ### Login
 
@@ -63,7 +56,7 @@ Alur umum aplikasi: `View (WPF/XAML) → ViewModel → Model → AppDbContext (E
 
 > Tab Laporan sebagai Bendahara
 
-## 4. Hasil Pengujian
+## 3. Hasil Pengujian
 
 Pengujian berikut dapat dilakukan melalui akun contoh yang dibuat otomatis saat aplikasi pertama kali dijalankan. Gunakan akun dengan peran yang sesuai untuk memeriksa hak akses Bendahara, Ketua, dan Anggota.
 
@@ -79,7 +72,7 @@ Pengujian berikut dapat dilakukan melalui akun contoh yang dibuat otomatis saat 
 | Ekspor laporan | Ekspor laporan yang sedang dibuka ke PDF dan Excel | Berkas laporan berhasil dibuat dan memuat ringkasan serta daftar mutasi | <img width="2560" height="1380" alt="image" src="https://github.com/user-attachments/assets/624eb63a-4a01-4925-8bad-d966b2850a01" /> |
 | Pembatasan peran | Masuk sebagai Anggota dan buka fitur pengelolaan | Aksi yang hanya untuk Bendahara atau Ketua tidak tersedia bagi Anggota (tidak bisa karena tidak ada tab nya) | <img width="1633" height="967" alt="image" src="https://github.com/user-attachments/assets/bf6be586-9578-4bd1-9ea4-dd0849a65f80" /> |
 
-## 5. Jawaban Refleksi
+## 4. Jawaban Refleksi
 
 **1. Apa tugas masing-masing bagian pada arsitektur MVVM di KasKita?**
 
@@ -107,7 +100,7 @@ Transaksi pengeluaran dengan nominal minimal **Rp500.000** disimpan dengan statu
 
 Laporan bulanan menghitung saldo awal dari transaksi yang disetujui sebelum bulan terpilih, lalu menghitung total pemasukan dan pengeluaran serta daftar mutasi pada bulan tersebut. Saldo akhir dihitung dari saldo awal ditambah pemasukan dan dikurangi pengeluaran. Hasil laporan dapat diekspor ke PDF menggunakan QuestPDF dan ke Excel menggunakan ClosedXML.
 
-## 6. Kesimpulan
+## 5. Kesimpulan
 
 KasKita menggabungkan pencatatan transaksi, pemantauan iuran, pengelolaan anggaran, persetujuan, dan pelaporan keuangan organisasi dalam satu aplikasi desktop. Melalui proyek ini, saya mempelajari penerapan WPF dan pola MVVM, penggunaan Entity Framework Core dengan SQLite, pemisahan tanggung jawab antarlapisan, serta penerapan fitur berdasarkan peran pengguna. Proyek ini juga menunjukkan bagaimana data transaksi dapat dirangkum menjadi laporan bulanan dan disediakan dalam format PDF maupun Excel.
 
